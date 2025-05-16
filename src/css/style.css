@@ -1,0 +1,47 @@
+* {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bg-body-tertiary {
+  background-color: transparent !important;
+}
+
+nav {
+  padding: 1rem 0;
+}
+
+.navbar-brand,
+.nav-link {
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.3rem;
+}
+
+.vt323,
+.vt323 a {
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+}
+
+.vt323 a {
+  text-decoration: none;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+span.cursor {
+  height: 15px;
+  width: 8px;
+  background-color: black;
+  display: inline-block;
+  margin-left: 3px;
+  margin-bottom: -3px;
+}
