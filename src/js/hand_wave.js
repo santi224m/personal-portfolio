@@ -1,7 +1,7 @@
 const hand = document.querySelector('.em-wave');
 
 let waveCount = 0;
-const maxWaves = 3;
+const maxWaves = 4;
 
 function waveHandLimited() {
   let angle = 0;
