@@ -56,18 +56,18 @@
     </div>
     <div class="col-12 col-md-6"></div>
     <form name="contact" method="POST" data-netlify="true">
-      <input type="hidden" name="subject" value="Message from personal portfolio" />
+      <input type="hidden" name="netlify-subject" value="Message from personal portfolio" />
       <div class="mb-3">
         <label for="sender-contact-info" class="form-label">How can I get back to you?</label>
-        <input type="text" class="form-control" id="sender-contact-info" placeholder="Email or Phone Number">
+        <input type="text" class="form-control" name="sender-contact-info" placeholder="Email or Phone Number">
       </div>
       <div class="mb-3">
         <label for="subject" class="form-label">Subject</label>
-        <input type="text" class="form-control" id="subject">
+        <input type="text" class="form-control" name="subject">
       </div>
       <div class="mb-3">
         <label for="message" class="form-label">Message</label>
-        <textarea class="form-control" id="message" rows="3"></textarea>
+        <textarea class="form-control" name="message" rows="3"></textarea>
       </div>
       <button type="submit" class="btn btn-primary w-100 mt-2">Send message</button>
     </form>
